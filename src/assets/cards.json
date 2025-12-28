@@ -22,7 +22,8 @@
     "Predator":1.0,
     "Venomous":null,
     "band":null,
-    "description":"Unlike some anglerfishes, the tiny males of this deepsea blackdevil are not believed to be parasitic."
+    "description":"Unlike some anglerfishes, the tiny males of this deepsea blackdevil are not believed to be parasitic.",
+    "translatedName":{}
   },
   {
     "id":2,
@@ -47,7 +48,8 @@
     "Predator":null,
     "Venomous":null,
     "band":null,
-    "description":"It often hovers just above the seafloor, pectoral fins held erect and pointing forward, possibly serving a sensory function."
+    "description":"It often hovers just above the seafloor, pectoral fins held erect and pointing forward, possibly serving a sensory function.",
+    "translatedName":{}
   },
   {
     "id":3,
@@ -72,7 +74,8 @@
     "Predator":null,
     "Venomous":null,
     "band":null,
-    "description":"Underwater images have shown the trails made when this fish \u201cwalks\u201d over the seafloor on its pelvic and tail fins."
+    "description":"Underwater images have shown the trails made when this fish \u201Cwalks\u201D over the seafloor on its pelvic and tail fins.",
+    "translatedName":{}
   },
   {
     "id":4,
@@ -90,14 +93,24 @@
     "points":2,
     "length":240,
     "abilityType":"GameEnd",
-    "ability":"10 [Wave] if [ConsumeFish3] (there are 3+ fish under this one)",
+    "ability":"10 [Wave] if [ConsumeFish3] (there are 3\u002B fish under this one)",
     "Bioluminescent":null,
     "Camouflage":1.0,
     "Electric":null,
     "Predator":1.0,
     "Venomous":null,
     "band":null,
-    "description":"The angelshark is an ambush predator, camouflaging itself on the sea floor until prey gets close."
+    "description":"The angelshark is an ambush predator, camouflaging itself on the sea floor until prey gets close.",
+    "translatedName":{
+      "nb":{
+        "name":"Havengel",
+        "link":"https://artsdatabanken.no/arter/takson/26044"
+      },
+      "nn":{
+        "name":"Havengel",
+        "link":"https://artsdatabanken.no/arter/takson/26044"
+      }
+    }
   },
   {
     "id":5,
@@ -122,7 +135,21 @@
     "Predator":1.0,
     "Venomous":null,
     "band":null,
-    "description":"The angler uses a special dorsal fin ray to lure passing fish near its mouth, gulping them down."
+    "description":"The angler uses a special dorsal fin ray to lure passing fish near its mouth, gulping them down.",
+    "translatedName":{
+      "nb":{
+        "name":"Breiflabb",
+        "link":"https://artsdatabanken.no/arter/takson/26297"
+      },
+      "nn":{
+        "name":"Breiflabb",
+        "link":"https://artsdatabanken.no/arter/takson/26297"
+      },
+      "se":{
+        "name":"Duor\u0161i",
+        "link":"https://artsdatabanken.no/arter/takson/26297"
+      }
+    }
   },
   {
     "id":6,
@@ -147,7 +174,8 @@
     "Predator":1.0,
     "Venomous":null,
     "band":null,
-    "description":"This hardy shark inhabits coastal waters that feature coral reefs, lagoons, rocky shores, and mangrove estuaries."
+    "description":"This hardy shark inhabits coastal waters that feature coral reefs, lagoons, rocky shores, and mangrove estuaries.",
+    "translatedName":{}
   },
   {
     "id":7,
@@ -172,7 +200,21 @@
     "Predator":1.0,
     "Venomous":null,
     "band":null,
-    "description":"The bluefin tuna is one of the open ocean\u2019s fastest and strongest predators, reaching speeds of up to 69 km\/hr."
+    "description":"The bluefin tuna is one of the open ocean\u2019s fastest and strongest predators, reaching speeds of up to 69 km/hr.",
+    "translatedName":{
+      "nb":{
+        "name":"Makrellst\u00F8rje",
+        "link":"https://artsdatabanken.no/arter/takson/26629"
+      },
+      "nn":{
+        "name":"Makrellst\u00F8rje",
+        "link":"https://artsdatabanken.no/arter/takson/26629"
+      },
+      "se":{
+        "name":"Dutna",
+        "link":"https://artsdatabanken.no/arter/takson/26629"
+      }
+    }
   },
   {
     "id":8,
@@ -190,14 +232,24 @@
     "points":3,
     "length":90,
     "abilityType":"GameEnd",
-    "ability":"6 [Wave] if [ConsumeFish2] (there are 2+ fish under this one)",
+    "ability":"6 [Wave] if [ConsumeFish2] (there are 2\u002B fish under this one)",
     "Bioluminescent":null,
     "Camouflage":null,
     "Electric":null,
     "Predator":1.0,
     "Venomous":null,
     "band":null,
-    "description":"The Atlantic bonito uses ram ventilation, meaning that it must keep swimming to breathe. It swallows prey whole."
+    "description":"The Atlantic bonito uses ram ventilation, meaning that it must keep swimming to breathe. It swallows prey whole.",
+    "translatedName":{
+      "nb":{
+        "name":"Stripet Pelamide",
+        "link":"https://artsdatabanken.no/arter/takson/26625"
+      },
+      "nn":{
+        "name":"Stripa Pelamide",
+        "link":"https://artsdatabanken.no/arter/takson/26625"
+      }
+    }
   },
   {
     "id":9,
@@ -222,7 +274,21 @@
     "Predator":null,
     "Venomous":null,
     "band":"purple",
-    "description":"Unlike other mackerel, this fish does not leap out of the water unless it\u2019s attempting to escape a predator."
+    "description":"Unlike other mackerel, this fish does not leap out of the water unless it\u2019s attempting to escape a predator.",
+    "translatedName":{
+      "nb":{
+        "name":"Makrell",
+        "link":"https://artsdatabanken.no/arter/takson/26621"
+      },
+      "nn":{
+        "name":"Makrell",
+        "link":"https://artsdatabanken.no/arter/takson/26621"
+      },
+      "se":{
+        "name":"Makrealla",
+        "link":"https://artsdatabanken.no/arter/takson/26621"
+      }
+    }
   },
   {
     "id":10,
@@ -247,7 +313,8 @@
     "Predator":1.0,
     "Venomous":null,
     "band":null,
-    "description":"The Atlantic sailfish hunts schooling fish, such as sardines, anchovies, and mackerel, utilizing its pointed bill."
+    "description":"The Atlantic sailfish hunts schooling fish, such as sardines, anchovies, and mackerel, utilizing its pointed bill.",
+    "translatedName":{}
   },
   {
     "id":11,
@@ -272,7 +339,21 @@
     "Predator":null,
     "Venomous":null,
     "band":null,
-    "description":"Atlantic salmon go out to sea to grow. Then they return to the river where they were born to spawn."
+    "description":"Atlantic salmon go out to sea to grow. Then they return to the river where they were born to spawn.",
+    "translatedName":{
+      "nb":{
+        "name":"Laks",
+        "link":"https://artsdatabanken.no/arter/takson/26164"
+      },
+      "nn":{
+        "name":"Laks",
+        "link":"https://artsdatabanken.no/arter/takson/26164"
+      },
+      "se":{
+        "name":"Luossa",
+        "link":"https://artsdatabanken.no/arter/takson/26164"
+      }
+    }
   },
   {
     "id":12,
@@ -297,7 +378,17 @@
     "Predator":null,
     "Venomous":null,
     "band":"blue",
-    "description":"Its eggs are prized as high-quality caviar, and now it is threatened by overfishing, pollution, and habitat loss."
+    "description":"Its eggs are prized as high-quality caviar, and now it is threatened by overfishing, pollution, and habitat loss.",
+    "translatedName":{
+      "nb":{
+        "name":"Atlanterhavst\u00F8r",
+        "link":"https://artsdatabanken.no/arter/takson/103788"
+      },
+      "nn":{
+        "name":"Atlanterhavst\u00F8r",
+        "link":"https://artsdatabanken.no/arter/takson/103788"
+      }
+    }
   },
   {
     "id":13,
@@ -322,7 +413,21 @@
     "Predator":1.0,
     "Venomous":null,
     "band":"green",
-    "description":"Males of this species guard new eggs, hardly feeding as they do. Their bite can crush the hard shells of mollusks."
+    "description":"Males of this species guard new eggs, hardly feeding as they do. Their bite can crush the hard shells of mollusks.",
+    "translatedName":{
+      "nb":{
+        "name":"Gr\u00E5steinbit",
+        "link":"https://artsdatabanken.no/arter/takson/26543"
+      },
+      "nn":{
+        "name":"Gr\u00E5steinbit",
+        "link":"https://artsdatabanken.no/arter/takson/26543"
+      },
+      "se":{
+        "name":"R\u00E1nesbuovla",
+        "link":"https://artsdatabanken.no/arter/takson/26543"
+      }
+    }
   },
   {
     "id":14,
@@ -347,7 +452,8 @@
     "Predator":null,
     "Venomous":null,
     "band":"green",
-    "description":"Due to limited geographical diversity and its popularity in the aquarium trade, this fish has become endangered."
+    "description":"Due to limited geographical diversity and its popularity in the aquarium trade, this fish has become endangered.",
+    "translatedName":{}
   },
   {
     "id":15,
@@ -372,7 +478,8 @@
     "Predator":null,
     "Venomous":null,
     "band":"purple",
-    "description":"Virtually all barramundi are born male, then turn female when they are three to four years old."
+    "description":"Virtually all barramundi are born male, then turn female when they are three to four years old.",
+    "translatedName":{}
   },
   {
     "id":16,
@@ -397,7 +504,8 @@
     "Predator":2.0,
     "Venomous":null,
     "band":null,
-    "description":"Bearded seadevils attract prey with their bioluminescent lure and elaborate bioluminescent chin barbel."
+    "description":"Bearded seadevils attract prey with their bioluminescent lure and elaborate bioluminescent chin barbel.",
+    "translatedName":{}
   },
   {
     "id":17,
@@ -422,7 +530,8 @@
     "Predator":1.0,
     "Venomous":null,
     "band":"purple",
-    "description":"This fish dives deep during the day and returns to surface waters by nightfall, a 20\u00baC difference in temperature."
+    "description":"This fish dives deep during the day and returns to surface waters by nightfall, a 20\u00BAC difference in temperature.",
+    "translatedName":{}
   },
   {
     "id":18,
@@ -447,7 +556,8 @@
     "Predator":null,
     "Venomous":null,
     "band":null,
-    "description":"The genus was first discovered in 1911 off the coast of the Baja California peninsula, where its Latin name comes from."
+    "description":"The genus was first discovered in 1911 off the coast of the Baja California peninsula, where its Latin name comes from.",
+    "translatedName":{}
   },
   {
     "id":19,
@@ -472,7 +582,8 @@
     "Predator":null,
     "Venomous":null,
     "band":null,
-    "description":"Binocular fish have highly developed tubular eyes that face forward in their transparent heads."
+    "description":"Binocular fish have highly developed tubular eyes that face forward in their transparent heads.",
+    "translatedName":{}
   },
   {
     "id":20,
@@ -497,7 +608,17 @@
     "Predator":null,
     "Venomous":null,
     "band":null,
-    "description":"Found in most temperate oceans, this species is believed to have a lifespan of over 100 years."
+    "description":"Found in most temperate oceans, this species is believed to have a lifespan of over 100 years.",
+    "translatedName":{
+      "nb":{
+        "name":"Dyphavsabbor",
+        "link":"https://artsdatabanken.no/arter/takson/26446"
+      },
+      "nn":{
+        "name":"Djuphavabbor",
+        "link":"https://artsdatabanken.no/arter/takson/26446"
+      }
+    }
   },
   {
     "id":21,
@@ -522,7 +643,8 @@
     "Predator":null,
     "Venomous":null,
     "band":null,
-    "description":"Hagfish produce copious amounts of expanding slime that can fill even the largest predator\u2019s mouth and gills."
+    "description":"Hagfish produce copious amounts of expanding slime that can fill even the largest predator\u2019s mouth and gills.",
+    "translatedName":{}
   },
   {
     "id":22,
@@ -547,7 +669,8 @@
     "Predator":1.0,
     "Venomous":null,
     "band":null,
-    "description":"It can swallow prey up to ten times its size, coiling the other fish inside its distended stomach."
+    "description":"It can swallow prey up to ten times its size, coiling the other fish inside its distended stomach.",
+    "translatedName":{}
   },
   {
     "id":23,
@@ -572,7 +695,8 @@
     "Predator":null,
     "Venomous":null,
     "band":null,
-    "description":"Named the world\u2019s ugliest animal in 2013, the \u201cblobfish\u201d soared to fame through memes, songs, toys, and cartoons."
+    "description":"Named the world\u2019s ugliest animal in 2013, the \u201Cblobfish\u201D soared to fame through memes, songs, toys, and cartoons.",
+    "translatedName":{}
   },
   {
     "id":24,
@@ -597,7 +721,8 @@
     "Predator":null,
     "Venomous":1.0,
     "band":null,
-    "description":"When in danger, it raises a pair of venomous spines on either side of its tail, then whips its body back and forth."
+    "description":"When in danger, it raises a pair of venomous spines on either side of its tail, then whips its body back and forth.",
+    "translatedName":{}
   },
   {
     "id":25,
@@ -622,7 +747,8 @@
     "Predator":null,
     "Venomous":null,
     "band":null,
-    "description":"The horn-like appendage between its eyes starts growing when the fish reaches about 13 cm in length."
+    "description":"The horn-like appendage between its eyes starts growing when the fish reaches about 13 cm in length.",
+    "translatedName":{}
   },
   {
     "id":26,
@@ -647,7 +773,8 @@
     "Predator":null,
     "Venomous":null,
     "band":"blue",
-    "description":"These fish set up cleaning stations to remove and eat unwanted ectoparasites on \u201cclient\u201d fish."
+    "description":"These fish set up cleaning stations to remove and eat unwanted ectoparasites on \u201Cclient\u201D fish.",
+    "translatedName":{}
   },
   {
     "id":27,
@@ -672,7 +799,17 @@
     "Predator":2.0,
     "Venomous":null,
     "band":null,
-    "description":"One of the world\u2019s largest sharks, it appears similar to fossilized remains dating back roughly 200 million years"
+    "description":"One of the world\u2019s largest sharks, it appears similar to fossilized remains dating back roughly 200 million years",
+    "translatedName":{
+      "nb":{
+        "name":"Kamtannhai",
+        "link":"https://artsdatabanken.no/arter/takson/26025"
+      },
+      "nn":{
+        "name":"Kamtannhai",
+        "link":"https://artsdatabanken.no/arter/takson/26025"
+      }
+    }
   },
   {
     "id":28,
@@ -697,7 +834,8 @@
     "Predator":null,
     "Venomous":null,
     "band":null,
-    "description":"This solitary fish often darts down vertically to hunt, using suction to draw prey into its elongated, tubular snout."
+    "description":"This solitary fish often darts down vertically to hunt, using suction to draw prey into its elongated, tubular snout.",
+    "translatedName":{}
   },
   {
     "id":29,
@@ -722,7 +860,8 @@
     "Predator":null,
     "Venomous":null,
     "band":null,
-    "description":"Found on shallow, soft bottoms, this fish gets its common name from its guitar-like shape."
+    "description":"Found on shallow, soft bottoms, this fish gets its common name from its guitar-like shape.",
+    "translatedName":{}
   },
   {
     "id":30,
@@ -747,7 +886,8 @@
     "Predator":null,
     "Venomous":null,
     "band":null,
-    "description":"Living within an anemone in a symbiotic relationship, the two creatures defend each other from predators."
+    "description":"Living within an anemone in a symbiotic relationship, the two creatures defend each other from predators.",
+    "translatedName":{}
   },
   {
     "id":31,
@@ -765,14 +905,15 @@
     "points":3,
     "length":16,
     "abilityType":"GameEnd",
-    "ability":"3 [Wave] if [ConsumeFish1] (1+ fish under this one)",
+    "ability":"3 [Wave] if [ConsumeFish1] (1\u002B fish under this one)",
     "Bioluminescent":null,
     "Camouflage":null,
     "Electric":null,
     "Predator":1.0,
     "Venomous":null,
     "band":null,
-    "description":"They have opposing sockets on either side of their brain to accommodate their fangs when their mouth is closed."
+    "description":"They have opposing sockets on either side of their brain to accommodate their fangs when their mouth is closed.",
+    "translatedName":{}
   },
   {
     "id":32,
@@ -797,7 +938,8 @@
     "Predator":1.0,
     "Venomous":null,
     "band":null,
-    "description":"It is called a cookiecutter shark because it takes a perfectly round, cookie-sized plug of flesh from its prey."
+    "description":"It is called a cookiecutter shark because it takes a perfectly round, cookie-sized plug of flesh from its prey.",
+    "translatedName":{}
   },
   {
     "id":33,
@@ -822,7 +964,8 @@
     "Predator":null,
     "Venomous":null,
     "band":null,
-    "description":"Its common name comes from the shape of its head, which resembles a cow nose when seen from above."
+    "description":"Its common name comes from the shape of its head, which resembles a cow nose when seen from above.",
+    "translatedName":{}
   },
   {
     "id":34,
@@ -847,7 +990,8 @@
     "Predator":null,
     "Venomous":null,
     "band":"blue",
-    "description":"A relatively short snout gives it binocular vision. When it sees danger, it retreats rapidly into rocks or a reef."
+    "description":"A relatively short snout gives it binocular vision. When it sees danger, it retreats rapidly into rocks or a reef.",
+    "translatedName":{}
   },
   {
     "id":35,
@@ -872,7 +1016,8 @@
     "Predator":1.0,
     "Venomous":null,
     "band":null,
-    "description":"Its eyes have iris lappets, pale projections that resemble eyelashes and provide camouflage for the black pupils."
+    "description":"Its eyes have iris lappets, pale projections that resemble eyelashes and provide camouflage for the black pupils.",
+    "translatedName":{}
   },
   {
     "id":36,
@@ -897,7 +1042,8 @@
     "Predator":null,
     "Venomous":null,
     "band":null,
-    "description":"It rests on the seafloor, head slightly elevated, ready to strike any prey that comes close\u2014even its own kind."
+    "description":"It rests on the seafloor, head slightly elevated, ready to strike any prey that comes close\u2014even its own kind.",
+    "translatedName":{}
   },
   {
     "id":37,
@@ -922,12 +1068,13 @@
     "Predator":null,
     "Venomous":1.0,
     "band":null,
-    "description":"Common near beaches, it\u2019s not aggressive, but its long, venomous tail spine can still be dangerous to people."
+    "description":"Common near beaches, it\u2019s not aggressive, but its long, venomous tail spine can still be dangerous to people.",
+    "translatedName":{}
   },
   {
     "id":38,
     "group":"main",
-    "name":"Elsman's Whipnose",
+    "name":"Elsman\u0027s Whipnose",
     "latin":"Gigantactic elsmani",
     "cardCost":null,
     "eggCost":null,
@@ -947,7 +1094,8 @@
     "Predator":1.0,
     "Venomous":null,
     "band":null,
-    "description":"It has a long whip-like lure attached to the tip of its snout, and approximately five rows of needle-like teeth."
+    "description":"It has a long whip-like lure attached to the tip of its snout, and approximately five rows of needle-like teeth.",
+    "translatedName":{}
   },
   {
     "id":39,
@@ -972,7 +1120,8 @@
     "Predator":null,
     "Venomous":null,
     "band":"purple",
-    "description":"It is a snapper, not an emperor fish. Juveniles will often shelter among sea urchin spines for protection."
+    "description":"It is a snapper, not an emperor fish. Juveniles will often shelter among sea urchin spines for protection.",
+    "translatedName":{}
   },
   {
     "id":40,
@@ -997,7 +1146,8 @@
     "Predator":null,
     "Venomous":null,
     "band":null,
-    "description":"The flesh of this fish is very oily, which makes it delicious to humans but dangerous to consume in large quantities."
+    "description":"The flesh of this fish is very oily, which makes it delicious to humans but dangerous to consume in large quantities.",
+    "translatedName":{}
   },
   {
     "id":41,
@@ -1022,7 +1172,8 @@
     "Predator":null,
     "Venomous":null,
     "band":null,
-    "description":"It is euryhaline, meaning it can live in water with low salinity, such as lagoons, estuaries, and brackish lakes."
+    "description":"It is euryhaline, meaning it can live in water with low salinity, such as lagoons, estuaries, and brackish lakes.",
+    "translatedName":{}
   },
   {
     "id":42,
@@ -1047,7 +1198,8 @@
     "Predator":null,
     "Venomous":null,
     "band":null,
-    "description":"The flounder can be found in the sea, in estuaries, and even sometimes in freshwater rivers."
+    "description":"The flounder can be found in the sea, in estuaries, and even sometimes in freshwater rivers.",
+    "translatedName":{}
   },
   {
     "id":43,
@@ -1072,7 +1224,17 @@
     "Predator":null,
     "Venomous":null,
     "band":"blue",
-    "description":"Once abundant and found in many coastal habitats around Europe, it is now a critically endangered species."
+    "description":"Once abundant and found in many coastal habitats around Europe, it is now a critically endangered species.",
+    "translatedName":{
+      "nb":{
+        "name":"St\u00F8r",
+        "link":"https://artsdatabanken.no/arter/takson/26078"
+      },
+      "nn":{
+        "name":"St\u00F8r",
+        "link":"https://artsdatabanken.no/arter/takson/26078"
+      }
+    }
   },
   {
     "id":44,
@@ -1097,7 +1259,8 @@
     "Predator":null,
     "Venomous":null,
     "band":null,
-    "description":"First collected by the HMS Challenger in 1878, the so-called \u201cfaceless fish\u201d was not rediscovered until 2017."
+    "description":"First collected by the HMS Challenger in 1878, the so-called \u201Cfaceless fish\u201D was not rediscovered until 2017.",
+    "translatedName":{}
   },
   {
     "id":45,
@@ -1122,7 +1285,8 @@
     "Predator":2.0,
     "Venomous":null,
     "band":null,
-    "description":"Even though it has long, narrow, catlike eyes, it is not a catshark. It\u2019s much larger and has hundreds of tiny teeth."
+    "description":"Even though it has long, narrow, catlike eyes, it is not a catshark. It\u2019s much larger and has hundreds of tiny teeth.",
+    "translatedName":{}
   },
   {
     "id":46,
@@ -1147,7 +1311,8 @@
     "Predator":1.0,
     "Venomous":null,
     "band":"blue",
-    "description":"It mimics the cleaner wrasse and then takes a bite out of the unexpecting fish waiting for a cleaning."
+    "description":"It mimics the cleaner wrasse and then takes a bite out of the unexpecting fish waiting for a cleaning.",
+    "translatedName":{}
   },
   {
     "id":47,
@@ -1172,7 +1337,8 @@
     "Predator":null,
     "Venomous":null,
     "band":null,
-    "description":"The tiny males, once believed to be members of a different family, look quite different than the females and do not feed as adults."
+    "description":"The tiny males, once believed to be members of a different family, look quite different than the females and do not feed as adults.",
+    "translatedName":{}
   },
   {
     "id":48,
@@ -1197,7 +1363,8 @@
     "Predator":1.0,
     "Venomous":null,
     "band":null,
-    "description":"The modified ray on its head makes a thick fishing rod, tipped with a luminous bulb, used to lure prey."
+    "description":"The modified ray on its head makes a thick fishing rod, tipped with a luminous bulb, used to lure prey.",
+    "translatedName":{}
   },
   {
     "id":49,
@@ -1222,7 +1389,8 @@
     "Predator":null,
     "Venomous":null,
     "band":null,
-    "description":"Devil rays get their common name from the twin horns on their head that are actually fins used to help them feed."
+    "description":"Devil rays get their common name from the twin horns on their head that are actually fins used to help them feed.",
+    "translatedName":{}
   },
   {
     "id":50,
@@ -1247,7 +1415,8 @@
     "Predator":null,
     "Venomous":null,
     "band":null,
-    "description":"Through the use of bioluminescence, this fish can both make itself appear invisible and find other fish more easily."
+    "description":"Through the use of bioluminescence, this fish can both make itself appear invisible and find other fish more easily.",
+    "translatedName":{}
   },
   {
     "id":51,
@@ -1272,7 +1441,8 @@
     "Predator":1.0,
     "Venomous":null,
     "band":null,
-    "description":"Named for its hawklike hunting technique, it perches on the high point of a coral reef and dives down upon prey."
+    "description":"Named for its hawklike hunting technique, it perches on the high point of a coral reef and dives down upon prey.",
+    "translatedName":{}
   },
   {
     "id":52,
@@ -1297,7 +1467,8 @@
     "Predator":null,
     "Venomous":null,
     "band":null,
-    "description":"The largest ray in the world, it has the biggest brain of any fish by volume\u2014ten times larger than a whale shark\u2019s."
+    "description":"The largest ray in the world, it has the biggest brain of any fish by volume\u2014ten times larger than a whale shark\u2019s.",
+    "translatedName":{}
   },
   {
     "id":53,
@@ -1322,7 +1493,17 @@
     "Predator":2.0,
     "Venomous":null,
     "band":null,
-    "description":"Rarely seen, the oarfish is the world\u2019s longest bony fish. It\u2019s believed to be the cause of sea serpent sightings."
+    "description":"Rarely seen, the oarfish is the world\u2019s longest bony fish. It\u2019s believed to be the cause of sea serpent sightings.",
+    "translatedName":{
+      "nb":{
+        "name":"Sildekonge",
+        "link":"https://artsdatabanken.no/arter/takson/26224"
+      },
+      "nn":{
+        "name":"Sildekonge",
+        "link":"https://artsdatabanken.no/arter/takson/26224"
+      }
+    }
   },
   {
     "id":54,
@@ -1347,7 +1528,8 @@
     "Predator":null,
     "Venomous":null,
     "band":null,
-    "description":"The giant trevally is known to prey upon fledgling seabirds that fall into the water while learning to fly."
+    "description":"The giant trevally is known to prey upon fledgling seabirds that fall into the water while learning to fly.",
+    "translatedName":{}
   },
   {
     "id":55,
@@ -1372,7 +1554,17 @@
     "Predator":null,
     "Venomous":null,
     "band":"blue",
-    "description":"Its first, tall dorsal spine remains erect until the smaller second spine is deflexed, triggering the first."
+    "description":"Its first, tall dorsal spine remains erect until the smaller second spine is deflexed, triggering the first.",
+    "translatedName":{
+      "nb":{
+        "name":"Avtrekkerfisk",
+        "link":"https://artsdatabanken.no/arter/takson/26684"
+      },
+      "nn":{
+        "name":"Avtrekkerfisk",
+        "link":"https://artsdatabanken.no/arter/takson/26684"
+      }
+    }
   },
   {
     "id":56,
@@ -1397,7 +1589,8 @@
     "Predator":null,
     "Venomous":null,
     "band":"green",
-    "description":"This colorful fish is known as the clown of the sea. It burrows into the sediment at the bottom of the ocean."
+    "description":"This colorful fish is known as the clown of the sea. It burrows into the sediment at the bottom of the ocean.",
+    "translatedName":{}
   },
   {
     "id":57,
@@ -1422,7 +1615,17 @@
     "Predator":2.0,
     "Venomous":null,
     "band":null,
-    "description":"Known by scientists as simply the \u201cwhite shark,\u201d this famous predator is, itself, occasionally preyed upon by orca whales."
+    "description":"Known by scientists as simply the \u201Cwhite shark,\u201D this famous predator is, itself, occasionally preyed upon by orca whales.",
+    "translatedName":{
+      "nb":{
+        "name":"Hvithai",
+        "link":"https://artsdatabanken.no/arter/takson/190351"
+      },
+      "nn":{
+        "name":"Kvithai",
+        "link":"https://artsdatabanken.no/arter/takson/190351"
+      }
+    }
   },
   {
     "id":58,
@@ -1447,7 +1650,21 @@
     "Predator":2.0,
     "Venomous":null,
     "band":null,
-    "description":"This shark currently holds the record as the longest-lived vertebrate, with an estimated lifespan of over 250 years."
+    "description":"This shark currently holds the record as the longest-lived vertebrate, with an estimated lifespan of over 250 years.",
+    "translatedName":{
+      "nb":{
+        "name":"H\u00E5kjerring",
+        "link":"https://artsdatabanken.no/arter/takson/26028"
+      },
+      "nn":{
+        "name":"H\u00E5kjerring",
+        "link":"https://artsdatabanken.no/arter/takson/26028"
+      },
+      "se":{
+        "name":"\u00C1hkalakkis",
+        "link":"https://artsdatabanken.no/arter/takson/26028"
+      }
+    }
   },
   {
     "id":59,
@@ -1472,7 +1689,8 @@
     "Predator":null,
     "Venomous":null,
     "band":null,
-    "description":"Its eyes are flat, cornea-like, light-sensitive organs without lenses that cover most of the upper surface of the head."
+    "description":"Its eyes are flat, cornea-like, light-sensitive organs without lenses that cover most of the upper surface of the head.",
+    "translatedName":{}
   },
   {
     "id":60,
@@ -1497,7 +1715,21 @@
     "Predator":null,
     "Venomous":null,
     "band":null,
-    "description":"It lives on gravelly, sandy, and pebbly seafloors, where it feeds on small fish, worms, mollusks, and eggs."
+    "description":"It lives on gravelly, sandy, and pebbly seafloors, where it feeds on small fish, worms, mollusks, and eggs.",
+    "translatedName":{
+      "nb":{
+        "name":"Hyse",
+        "link":"https://artsdatabanken.no/arter/takson/26277"
+      },
+      "nn":{
+        "name":"Hyse",
+        "link":"https://artsdatabanken.no/arter/takson/26277"
+      },
+      "se":{
+        "name":"Diksu",
+        "link":"https://artsdatabanken.no/arter/takson/26277"
+      }
+    }
   },
   {
     "id":61,
@@ -1522,7 +1754,8 @@
     "Predator":null,
     "Venomous":null,
     "band":null,
-    "description":"Its common name comes from its long pig-like snout and how it roots around the seafloor searching for food."
+    "description":"Its common name comes from its long pig-like snout and how it roots around the seafloor searching for food.",
+    "translatedName":{}
   },
   {
     "id":62,
@@ -1547,7 +1780,8 @@
     "Predator":1.0,
     "Venomous":null,
     "band":null,
-    "description":"This fish can be found in deep waters during the day and in shallower areas at night, where it searches for food."
+    "description":"This fish can be found in deep waters during the day and in shallower areas at night, where it searches for food.",
+    "translatedName":{}
   },
   {
     "id":63,
@@ -1572,7 +1806,8 @@
     "Predator":2.0,
     "Venomous":null,
     "band":null,
-    "description":"The humpback anglerfish is more commonly found at shallower depths than other species in its genus."
+    "description":"The humpback anglerfish is more commonly found at shallower depths than other species in its genus.",
+    "translatedName":{}
   },
   {
     "id":64,
@@ -1597,7 +1832,8 @@
     "Predator":null,
     "Venomous":null,
     "band":null,
-    "description":"It excavates by ejecting water to displace sand. Then it noses around for food."
+    "description":"It excavates by ejecting water to displace sand. Then it noses around for food.",
+    "translatedName":{}
   },
   {
     "id":65,
@@ -1622,7 +1858,8 @@
     "Predator":1.0,
     "Venomous":null,
     "band":null,
-    "description":"The world\u2019s fastest swimming fish, its intricate dorsal fin, shaped like a sail, helps it to reach up to 110 km per hour."
+    "description":"The world\u2019s fastest swimming fish, its intricate dorsal fin, shaped like a sail, helps it to reach up to 110 km per hour.",
+    "translatedName":{}
   },
   {
     "id":66,
@@ -1647,7 +1884,8 @@
     "Predator":null,
     "Venomous":null,
     "band":"purple",
-    "description":"Large schools tend to swim close to the surface during the full moon, their silver scales shimmering in the light."
+    "description":"Large schools tend to swim close to the surface during the full moon, their silver scales shimmering in the light.",
+    "translatedName":{}
   },
   {
     "id":67,
@@ -1672,7 +1910,8 @@
     "Predator":null,
     "Venomous":null,
     "band":null,
-    "description":"Endangered throughout its range from overfishing, this sturgeon spends much of its life in estuaries and rivers."
+    "description":"Endangered throughout its range from overfishing, this sturgeon spends much of its life in estuaries and rivers.",
+    "translatedName":{}
   },
   {
     "id":68,
@@ -1697,7 +1936,8 @@
     "Predator":null,
     "Venomous":null,
     "band":null,
-    "description":"Adults live in open waters but remain close to the shoreline. Their young may enter bays and harbors."
+    "description":"Adults live in open waters but remain close to the shoreline. Their young may enter bays and harbors.",
+    "translatedName":{}
   },
   {
     "id":69,
@@ -1722,7 +1962,8 @@
     "Predator":null,
     "Venomous":null,
     "band":null,
-    "description":"The largetooth flounder is a species of left- eyed flatfish with both eyes of the adult on the left side of its body."
+    "description":"The largetooth flounder is a species of left- eyed flatfish with both eyes of the adult on the left side of its body.",
+    "translatedName":{}
   },
   {
     "id":70,
@@ -1747,7 +1988,8 @@
     "Predator":null,
     "Venomous":null,
     "band":null,
-    "description":"Lobes of skin growing all over it provide camouflage, giving it the appearance of seaweed, even as it swims."
+    "description":"Lobes of skin growing all over it provide camouflage, giving it the appearance of seaweed, even as it swims.",
+    "translatedName":{}
   },
   {
     "id":71,
@@ -1772,7 +2014,8 @@
     "Predator":null,
     "Venomous":null,
     "band":null,
-    "description":"Its tail contains an organ that intermittently generates a weak electric field that may be used for communication."
+    "description":"Its tail contains an organ that intermittently generates a weak electric field that may be used for communication.",
+    "translatedName":{}
   },
   {
     "id":72,
@@ -1797,7 +2040,8 @@
     "Predator":null,
     "Venomous":null,
     "band":null,
-    "description":"This fish can attach itself to any large host, even scuba divers, using the oval-shaped sucking disc on its head."
+    "description":"This fish can attach itself to any large host, even scuba divers, using the oval-shaped sucking disc on its head.",
+    "translatedName":{}
   },
   {
     "id":73,
@@ -1822,7 +2066,17 @@
     "Predator":1.0,
     "Venomous":null,
     "band":null,
-    "description":"Voracious eaters, many new species of fish and mollusks have been discovered in the contents of their stomachs."
+    "description":"Voracious eaters, many new species of fish and mollusks have been discovered in the contents of their stomachs.",
+    "translatedName":{
+      "nb":{
+        "name":"Langsnutet Lansefisk",
+        "link":"https://artsdatabanken.no/arter/takson/199568"
+      },
+      "nn":{
+        "name":"Langsnuta Lansefisk",
+        "link":"https://artsdatabanken.no/arter/takson/199568"
+      }
+    }
   },
   {
     "id":74,
@@ -1847,7 +2101,8 @@
     "Predator":null,
     "Venomous":1.0,
     "band":null,
-    "description":"It uses its beak and the plates on the roof of its mouth to crush prey that would otherwise be indigestible."
+    "description":"It uses its beak and the plates on the roof of its mouth to crush prey that would otherwise be indigestible.",
+    "translatedName":{}
   },
   {
     "id":75,
@@ -1872,7 +2127,8 @@
     "Predator":1.0,
     "Venomous":null,
     "band":null,
-    "description":"Its common name means \u201cstrong-strong\u201d in Hawaiian. Flyingfishes make up nearly 25% of the diet of adults."
+    "description":"Its common name means \u201Cstrong-strong\u201D in Hawaiian. Flyingfishes make up nearly 25% of the diet of adults.",
+    "translatedName":{}
   },
   {
     "id":76,
@@ -1897,7 +2153,8 @@
     "Predator":null,
     "Venomous":null,
     "band":null,
-    "description":"Critically endangered due to habitat loss, the Maltese ray faces a high risk of extinction in the wild."
+    "description":"Critically endangered due to habitat loss, the Maltese ray faces a high risk of extinction in the wild.",
+    "translatedName":{}
   },
   {
     "id":77,
@@ -1922,7 +2179,8 @@
     "Predator":null,
     "Venomous":null,
     "band":null,
-    "description":"It has been observed at a depth of 8,178 m, making it one of the deepest dwelling fishes on the planet."
+    "description":"It has been observed at a depth of 8,178 m, making it one of the deepest dwelling fishes on the planet.",
+    "translatedName":{}
   },
   {
     "id":78,
@@ -1947,7 +2205,17 @@
     "Predator":null,
     "Venomous":null,
     "band":"purple",
-    "description":"Though normally a peaceful species, males aggressively guard the eggs while they develop."
+    "description":"Though normally a peaceful species, males aggressively guard the eggs while they develop.",
+    "translatedName":{
+      "nb":{
+        "name":"Det Gule Riket",
+        "link":"https://artsdatabanken.no/arter/takson/819"
+      },
+      "nn":{
+        "name":"Det Gule Riket",
+        "link":"https://artsdatabanken.no/arter/takson/819"
+      }
+    }
   },
   {
     "id":79,
@@ -1972,7 +2240,8 @@
     "Predator":null,
     "Venomous":null,
     "band":"green",
-    "description":"It starts life as female, then changes to male in adulthood, turning from bright red and yellow to gray and blue."
+    "description":"It starts life as female, then changes to male in adulthood, turning from bright red and yellow to gray and blue.",
+    "translatedName":{}
   },
   {
     "id":80,
@@ -1997,7 +2266,8 @@
     "Predator":null,
     "Venomous":1.0,
     "band":null,
-    "description":"This fish has often been seen suspending itself vertically in the water, with its mouth pointing up towards the surface."
+    "description":"This fish has often been seen suspending itself vertically in the water, with its mouth pointing up towards the surface.",
+    "translatedName":{}
   },
   {
     "id":81,
@@ -2022,7 +2292,17 @@
     "Predator":null,
     "Venomous":null,
     "band":null,
-    "description":"The largest known bony fish, it basks on the surface to thermally recharge after feeding in deeper, colder waters."
+    "description":"The largest known bony fish, it basks on the surface to thermally recharge after feeding in deeper, colder waters.",
+    "translatedName":{
+      "nb":{
+        "name":"M\u00E5nefisk",
+        "link":"https://artsdatabanken.no/arter/takson/26687"
+      },
+      "nn":{
+        "name":"M\u00E5nefisk",
+        "link":"https://artsdatabanken.no/arter/takson/26687"
+      }
+    }
   },
   {
     "id":82,
@@ -2047,7 +2327,8 @@
     "Predator":null,
     "Venomous":1.0,
     "band":null,
-    "description":"Its Latin name means \u201crabbit head,\u201d and, like many puffers, it contains neurotoxins that may be fatal to humans if eaten."
+    "description":"Its Latin name means \u201Crabbit head,\u201D and, like many puffers, it contains neurotoxins that may be fatal to humans if eaten.",
+    "translatedName":{}
   },
   {
     "id":83,
@@ -2072,7 +2353,8 @@
     "Predator":null,
     "Venomous":null,
     "band":null,
-    "description":"Forming schools of up to 10 million fish, it is, at times, the most abundant species in the California Current."
+    "description":"Forming schools of up to 10 million fish, it is, at times, the most abundant species in the California Current.",
+    "translatedName":{}
   },
   {
     "id":84,
@@ -2097,7 +2379,8 @@
     "Predator":null,
     "Venomous":null,
     "band":null,
-    "description":"Most skates only have dermal denticles on their dorsal side, but this one has tiny spines on its belly as well."
+    "description":"Most skates only have dermal denticles on their dorsal side, but this one has tiny spines on its belly as well.",
+    "translatedName":{}
   },
   {
     "id":85,
@@ -2115,14 +2398,15 @@
     "points":2,
     "length":137,
     "abilityType":"GameEnd",
-    "ability":"10 [Wave] if [FishEgg] + [YoungFish] + [SchoolFish] on this fish",
+    "ability":"10 [Wave] if [FishEgg] \u002B [YoungFish] \u002B [SchoolFish] on this fish",
     "Bioluminescent":null,
     "Camouflage":null,
     "Electric":null,
     "Predator":null,
     "Venomous":null,
     "band":null,
-    "description":"Dubbed \u201cghost sharks,\u201d chimaeras \u201cflap\u201d their large pectoral fins to propel themselves forward (unlike sharks)."
+    "description":"Dubbed \u201Cghost sharks,\u201D chimaeras \u201Cflap\u201D their large pectoral fins to propel themselves forward (unlike sharks).",
+    "translatedName":{}
   },
   {
     "id":86,
@@ -2147,7 +2431,8 @@
     "Predator":1.0,
     "Venomous":null,
     "band":null,
-    "description":"It inhabits reef flats and rocky intertidal shorelines, and it will sometimes leave the water in pursuit of prey."
+    "description":"It inhabits reef flats and rocky intertidal shorelines, and it will sometimes leave the water in pursuit of prey.",
+    "translatedName":{}
   },
   {
     "id":87,
@@ -2172,7 +2457,8 @@
     "Predator":null,
     "Venomous":null,
     "band":null,
-    "description":"This species does not have a common name of its own. It\u2019s a snailfish\u2014scaleless with a thin, loose, gelatinous skin."
+    "description":"This species does not have a common name of its own. It\u2019s a snailfish\u2014scaleless with a thin, loose, gelatinous skin.",
+    "translatedName":{}
   },
   {
     "id":88,
@@ -2197,7 +2483,8 @@
     "Predator":1.0,
     "Venomous":null,
     "band":null,
-    "description":"Antifreeze proteins prevent its blood and tissues from freezing in subzero temperatures."
+    "description":"Antifreeze proteins prevent its blood and tissues from freezing in subzero temperatures.",
+    "translatedName":{}
   },
   {
     "id":89,
@@ -2222,7 +2509,8 @@
     "Predator":2.0,
     "Venomous":null,
     "band":null,
-    "description":"The mouth of the pelican eel can open wide enough to swallow prey much larger than the eel itself."
+    "description":"The mouth of the pelican eel can open wide enough to swallow prey much larger than the eel itself.",
+    "translatedName":{}
   },
   {
     "id":90,
@@ -2247,7 +2535,8 @@
     "Predator":null,
     "Venomous":null,
     "band":"blue",
-    "description":"The juveniles are solitary and sometimes clean parasites off other, larger fish. Adults live in pairs and feed on zooplankton."
+    "description":"The juveniles are solitary and sometimes clean parasites off other, larger fish. Adults live in pairs and feed on zooplankton.",
+    "translatedName":{}
   },
   {
     "id":91,
@@ -2272,7 +2561,17 @@
     "Predator":null,
     "Venomous":null,
     "band":null,
-    "description":"This carnivorous fish tends to follow sharks and ships to feed on parasites and leftover scraps of food."
+    "description":"This carnivorous fish tends to follow sharks and ships to feed on parasites and leftover scraps of food.",
+    "translatedName":{
+      "nb":{
+        "name":"Losfisk",
+        "link":"https://artsdatabanken.no/arter/takson/26454"
+      },
+      "nn":{
+        "name":"Losfisk",
+        "link":"https://artsdatabanken.no/arter/takson/26454"
+      }
+    }
   },
   {
     "id":92,
@@ -2297,7 +2596,8 @@
     "Predator":null,
     "Venomous":null,
     "band":"green",
-    "description":"Plate fish are experts at camouflage and can quickly change colors to match their surroundings."
+    "description":"Plate fish are experts at camouflage and can quickly change colors to match their surroundings.",
+    "translatedName":{}
   },
   {
     "id":93,
@@ -2322,7 +2622,8 @@
     "Predator":null,
     "Venomous":null,
     "band":null,
-    "description":"The pudgy cusk-eel is a common fish of deep oceans. It lives along the ocean floor as deep as 4,300 m."
+    "description":"The pudgy cusk-eel is a common fish of deep oceans. It lives along the ocean floor as deep as 4,300 m.",
+    "translatedName":{}
   },
   {
     "id":94,
@@ -2347,7 +2648,8 @@
     "Predator":null,
     "Venomous":null,
     "band":"green",
-    "description":"It is nearly indistinguishable from the coral where it is found because of its tiny size and specialized camouflage."
+    "description":"It is nearly indistinguishable from the coral where it is found because of its tiny size and specialized camouflage.",
+    "translatedName":{}
   },
   {
     "id":95,
@@ -2372,7 +2674,8 @@
     "Predator":1.0,
     "Venomous":1.0,
     "band":null,
-    "description":"Though it is a staple in the aquarium fish trade and a popular attraction for divers, this fish is quite venomous."
+    "description":"Though it is a staple in the aquarium fish trade and a popular attraction for divers, this fish is quite venomous.",
+    "translatedName":{}
   },
   {
     "id":96,
@@ -2397,7 +2700,8 @@
     "Predator":1.0,
     "Venomous":1.0,
     "band":null,
-    "description":"A lurking fish that uses camouflage to surprise its food, the spines of its dorsal fin house potent venom glands."
+    "description":"A lurking fish that uses camouflage to surprise its food, the spines of its dorsal fin house potent venom glands.",
+    "translatedName":{}
   },
   {
     "id":97,
@@ -2422,7 +2726,8 @@
     "Predator":null,
     "Venomous":null,
     "band":"blue",
-    "description":"To expose its prey, it will overturn rocks. If threatened, it will dive into the sand and wriggle its way to safety."
+    "description":"To expose its prey, it will overturn rocks. If threatened, it will dive into the sand and wriggle its way to safety.",
+    "translatedName":{}
   },
   {
     "id":98,
@@ -2447,7 +2752,8 @@
     "Predator":null,
     "Venomous":null,
     "band":"blue",
-    "description":"When they leave the water, they can fly up to 400 meters at speeds of up to 70 km per hour."
+    "description":"When they leave the water, they can fly up to 400 meters at speeds of up to 70 km per hour.",
+    "translatedName":{}
   },
   {
     "id":99,
@@ -2472,7 +2778,17 @@
     "Predator":1.0,
     "Venomous":null,
     "band":"blue",
-    "description":"Sargassum fish spend most of their life drifting with the floating seaweed mats where they live and hunt."
+    "description":"Sargassum fish spend most of their life drifting with the floating seaweed mats where they live and hunt.",
+    "translatedName":{
+      "nb":{
+        "name":"Sargassoulke",
+        "link":"https://artsdatabanken.no/arter/takson/26301"
+      },
+      "nn":{
+        "name":"Sargassoulke",
+        "link":"https://artsdatabanken.no/arter/takson/26301"
+      }
+    }
   },
   {
     "id":100,
@@ -2497,7 +2813,8 @@
     "Predator":1.0,
     "Venomous":null,
     "band":"blue",
-    "description":"It has a fleshy bioluminescent barbel at its chin, used to lure prey within reach of its heavily toothed mouth."
+    "description":"It has a fleshy bioluminescent barbel at its chin, used to lure prey within reach of its heavily toothed mouth.",
+    "translatedName":{}
   },
   {
     "id":101,
@@ -2522,7 +2839,8 @@
     "Predator":1.0,
     "Venomous":null,
     "band":null,
-    "description":"The color of its body changes to match its surroundings. It can fully swallow prey as large as itself."
+    "description":"The color of its body changes to match its surroundings. It can fully swallow prey as large as itself.",
+    "translatedName":{}
   },
   {
     "id":102,
@@ -2547,7 +2865,8 @@
     "Predator":1.0,
     "Venomous":1.0,
     "band":null,
-    "description":"A type of dogfish found along the continental shelves, it gives birth to live young after a two-year gestation period."
+    "description":"A type of dogfish found along the continental shelves, it gives birth to live young after a two-year gestation period.",
+    "translatedName":{}
   },
   {
     "id":103,
@@ -2572,7 +2891,8 @@
     "Predator":null,
     "Venomous":null,
     "band":null,
-    "description":"Rows of violet light organs run along its belly, and each eye has additional light organs in front and behind it."
+    "description":"Rows of violet light organs run along its belly, and each eye has additional light organs in front and behind it.",
+    "translatedName":{}
   },
   {
     "id":104,
@@ -2597,12 +2917,13 @@
     "Predator":1.0,
     "Venomous":null,
     "band":null,
-    "description":"Skipjack makes up about 70% of all canned or pouched tuna. It is the most caught tuna in the world."
+    "description":"Skipjack makes up about 70% of all canned or pouched tuna. It is the most caught tuna in the world.",
+    "translatedName":{}
   },
   {
     "id":105,
     "group":"main",
-    "name":"Sloan's Viperfish",
+    "name":"Sloan\u0027s Viperfish",
     "latin":"Chauliodus sloani",
     "cardCost":1.0,
     "eggCost":1.0,
@@ -2622,7 +2943,17 @@
     "Predator":1.0,
     "Venomous":null,
     "band":null,
-    "description":"Its jaw can be unhinged, allowing it to open its mouth up to 90 degrees to catch prey as large as 63% of its own body size."
+    "description":"Its jaw can be unhinged, allowing it to open its mouth up to 90 degrees to catch prey as large as 63% of its own body size.",
+    "translatedName":{
+      "nb":{
+        "name":"Hoggormfisk",
+        "link":"https://artsdatabanken.no/arter/takson/26186"
+      },
+      "nn":{
+        "name":"Hoggormfisk",
+        "link":"https://artsdatabanken.no/arter/takson/26186"
+      }
+    }
   },
   {
     "id":106,
@@ -2647,7 +2978,8 @@
     "Predator":null,
     "Venomous":null,
     "band":"purple",
-    "description":"The smooth oreo dory inhabits continental slopes of all southern continents at depths up to 1,500 m."
+    "description":"The smooth oreo dory inhabits continental slopes of all southern continents at depths up to 1,500 m.",
+    "translatedName":{}
   },
   {
     "id":107,
@@ -2672,7 +3004,8 @@
     "Predator":1.0,
     "Venomous":null,
     "band":null,
-    "description":"It has rows of photophores on its flanks and luminescent patches above its eyes, nostrils, and pectoral fin."
+    "description":"It has rows of photophores on its flanks and luminescent patches above its eyes, nostrils, and pectoral fin.",
+    "translatedName":{}
   },
   {
     "id":108,
@@ -2697,7 +3030,8 @@
     "Predator":null,
     "Venomous":null,
     "band":null,
-    "description":"The snipe eel\u2019s most unusual feature is its long, slender jaws that curve at the end like the bill of a snipe (bird)."
+    "description":"The snipe eel\u2019s most unusual feature is its long, slender jaws that curve at the end like the bill of a snipe (bird).",
+    "translatedName":{}
   },
   {
     "id":109,
@@ -2722,7 +3056,8 @@
     "Predator":null,
     "Venomous":null,
     "band":null,
-    "description":"It can easily swim sideways or upside down. One of the few fish that mates for life, it often swims in mated pairs."
+    "description":"It can easily swim sideways or upside down. One of the few fish that mates for life, it often swims in mated pairs.",
+    "translatedName":{}
   },
   {
     "id":110,
@@ -2747,7 +3082,8 @@
     "Predator":1.0,
     "Venomous":null,
     "band":null,
-    "description":"The tiny, parasitic male attaches itself to the larger female, its tissues and blood vessels fusing with its host."
+    "description":"The tiny, parasitic male attaches itself to the larger female, its tissues and blood vessels fusing with its host.",
+    "translatedName":{}
   },
   {
     "id":111,
@@ -2772,7 +3108,8 @@
     "Predator":null,
     "Venomous":null,
     "band":null,
-    "description":"There are several known species of spookfish, an elongated type of barreleye. This species is known from only a few specimens."
+    "description":"There are several known species of spookfish, an elongated type of barreleye. This species is known from only a few specimens.",
+    "translatedName":{}
   },
   {
     "id":112,
@@ -2797,7 +3134,8 @@
     "Predator":null,
     "Venomous":null,
     "band":null,
-    "description":"With teeth hard as metal, parrotfish eat coral and excrete sand. They also sleep in a protective cocoon of mucus."
+    "description":"With teeth hard as metal, parrotfish eat coral and excrete sand. They also sleep in a protective cocoon of mucus.",
+    "translatedName":{}
   },
   {
     "id":113,
@@ -2822,7 +3160,8 @@
     "Predator":1.0,
     "Venomous":1.0,
     "band":null,
-    "description":"The world\u2019s most venomous fish, if you mistake it for a harmless rock, it will pop up its dorsal spines and sting."
+    "description":"The world\u2019s most venomous fish, if you mistake it for a harmless rock, it will pop up its dorsal spines and sting.",
+    "translatedName":{}
   },
   {
     "id":114,
@@ -2847,7 +3186,8 @@
     "Predator":1.0,
     "Venomous":null,
     "band":null,
-    "description":"Its jaw is much longer than its skull, nearly 30% of its body length, and its mouth has no floor membrane."
+    "description":"Its jaw is much longer than its skull, nearly 30% of its body length, and its mouth has no floor membrane.",
+    "translatedName":{}
   },
   {
     "id":115,
@@ -2872,7 +3212,8 @@
     "Predator":1.0,
     "Venomous":null,
     "band":null,
-    "description":"Compared to other marlin species, the bill of a striped marlin is a bit more slender and blunt."
+    "description":"Compared to other marlin species, the bill of a striped marlin is a bit more slender and blunt.",
+    "translatedName":{}
   },
   {
     "id":116,
@@ -2897,7 +3238,17 @@
     "Predator":1.0,
     "Venomous":null,
     "band":null,
-    "description":"Among the fastest of fish, the swordfish uses its bill to slash at its prey to make for an easier catch."
+    "description":"Among the fastest of fish, the swordfish uses its bill to slash at its prey to make for an easier catch.",
+    "translatedName":{
+      "nb":{
+        "name":"Sverdfisk",
+        "link":"https://artsdatabanken.no/arter/takson/26634"
+      },
+      "nn":{
+        "name":"Sverdfisk",
+        "link":"https://artsdatabanken.no/arter/takson/26634"
+      }
+    }
   },
   {
     "id":117,
@@ -2922,7 +3273,8 @@
     "Predator":null,
     "Venomous":null,
     "band":null,
-    "description":"Perching on the ocean floor on three long, modified fin rays, it faces into the current to intercept prey drifting by."
+    "description":"Perching on the ocean floor on three long, modified fin rays, it faces into the current to intercept prey drifting by.",
+    "translatedName":{}
   },
   {
     "id":118,
@@ -2947,7 +3299,8 @@
     "Predator":null,
     "Venomous":null,
     "band":"blue",
-    "description":"The exceptionally large pectoral fins enable this fish to glide for long distances above the surface of the water."
+    "description":"The exceptionally large pectoral fins enable this fish to glide for long distances above the surface of the water.",
+    "translatedName":{}
   },
   {
     "id":119,
@@ -2972,7 +3325,8 @@
     "Predator":2.0,
     "Venomous":null,
     "band":null,
-    "description":"The largest fish in the world, it may live 130 years. It has over 300 teeth but feeds on tiny fish, shrimp, and plankton."
+    "description":"The largest fish in the world, it may live 130 years. It has over 300 teeth but feeds on tiny fish, shrimp, and plankton.",
+    "translatedName":{}
   },
   {
     "id":120,
@@ -2997,7 +3351,8 @@
     "Predator":null,
     "Venomous":null,
     "band":"blue",
-    "description":"It usually attaches itself to a large ray, but sometimes to a shark or a marlin. It often enters the gill chamber or mouth of its host."
+    "description":"It usually attaches itself to a large ray, but sometimes to a shark or a marlin. It often enters the gill chamber or mouth of its host.",
+    "translatedName":{}
   },
   {
     "id":121,
@@ -3022,7 +3377,8 @@
     "Predator":null,
     "Venomous":1.0,
     "band":null,
-    "description":"Also known as the stars-and-stripes puffer, its skin and internal organs are poisonous to humans."
+    "description":"Also known as the stars-and-stripes puffer, its skin and internal organs are poisonous to humans.",
+    "translatedName":{}
   },
   {
     "id":122,
@@ -3047,7 +3403,8 @@
     "Predator":null,
     "Venomous":1.0,
     "band":null,
-    "description":"This venomous fish has electric organs located in a pouch behind its eyes and can discharge up to 50 volts."
+    "description":"This venomous fish has electric organs located in a pouch behind its eyes and can discharge up to 50 volts.",
+    "translatedName":{}
   },
   {
     "id":123,
@@ -3072,7 +3429,8 @@
     "Predator":1.0,
     "Venomous":null,
     "band":null,
-    "description":"This fish has its own natural fishing rod, complete with fishing line, fishhooks, and bioluminescent bait."
+    "description":"This fish has its own natural fishing rod, complete with fishing line, fishhooks, and bioluminescent bait.",
+    "translatedName":{}
   },
   {
     "id":124,
@@ -3097,7 +3455,8 @@
     "Predator":null,
     "Venomous":1.0,
     "band":null,
-    "description":"When it\u2019s threatened, the yellow boxfish releases toxins that protect it from predators."
+    "description":"When it\u2019s threatened, the yellow boxfish releases toxins that protect it from predators.",
+    "translatedName":{}
   },
   {
     "id":125,
@@ -3122,7 +3481,8 @@
     "Predator":null,
     "Venomous":null,
     "band":null,
-    "description":"Its Latin name is derived from the words \u201cgolden swift tail\u201d because its bright yellow tail is forked like that of a swift."
+    "description":"Its Latin name is derived from the words \u201Cgolden swift tail\u201D because its bright yellow tail is forked like that of a swift.",
+    "translatedName":{}
   },
   {
     "id":126,
@@ -3147,7 +3507,8 @@
     "Predator":null,
     "Venomous":null,
     "band":"green",
-    "description":"Its head is transparent with tubular eyes peering up from inside. The twin eyeholes in front are actually nostrils."
+    "description":"Its head is transparent with tubular eyes peering up from inside. The twin eyeholes in front are actually nostrils.",
+    "translatedName":{}
   },
   {
     "id":127,
@@ -3172,7 +3533,8 @@
     "Predator":null,
     "Venomous":null,
     "band":null,
-    "description":"Using glowing blue-green lights embedded all over its body, it can see and signal in the dark ocean depths."
+    "description":"Using glowing blue-green lights embedded all over its body, it can see and signal in the dark ocean depths.",
+    "translatedName":{}
   },
   {
     "id":128,
@@ -3197,7 +3559,8 @@
     "Predator":null,
     "Venomous":null,
     "band":null,
-    "description":"While feeding, it can be found in waters as shallow as 10 cm. Then it retreats to waters as deep as 100 meters."
+    "description":"While feeding, it can be found in waters as shallow as 10 cm. Then it retreats to waters as deep as 100 meters.",
+    "translatedName":{}
   },
   {
     "id":129,
@@ -3222,7 +3585,8 @@
     "Predator":null,
     "Venomous":null,
     "band":null,
-    "description":"These bioluminescent fish are found in the depths during the day and rise to the surface at night to feed."
+    "description":"These bioluminescent fish are found in the depths during the day and rise to the surface at night to feed.",
+    "translatedName":{}
   },
   {
     "id":130,
@@ -3247,7 +3611,8 @@
     "Predator":null,
     "Venomous":null,
     "band":null,
-    "description":"A peaceful, social fish, the longfin batfish forms schools with fish from other species."
+    "description":"A peaceful, social fish, the longfin batfish forms schools with fish from other species.",
+    "translatedName":{}
   },
   {
     "id":131,
@@ -3272,7 +3637,8 @@
     "Predator":null,
     "Venomous":null,
     "band":null,
-    "description":"Its common name comes from its vivid coloration, evoking the robes of the imperial Chinese civil service."
+    "description":"Its common name comes from its vivid coloration, evoking the robes of the imperial Chinese civil service.",
+    "translatedName":{}
   },
   {
     "id":132,
@@ -3297,7 +3663,8 @@
     "Predator":null,
     "Venomous":null,
     "band":null,
-    "description":"Orange roughy are estimated to live for over 150 years and don\u2019t reproduce until they are 20 to 40 years old."
+    "description":"Orange roughy are estimated to live for over 150 years and don\u2019t reproduce until they are 20 to 40 years old.",
+    "translatedName":{}
   },
   {
     "id":133,
@@ -3322,7 +3689,8 @@
     "Predator":null,
     "Venomous":null,
     "band":"purple",
-    "description":"It gets its common name from the sound it makes when it grinds its teeth and how it makes pig-like grunts."
+    "description":"It gets its common name from the sound it makes when it grinds its teeth and how it makes pig-like grunts.",
+    "translatedName":{}
   },
   {
     "id":134,
@@ -3347,7 +3715,8 @@
     "Predator":null,
     "Venomous":null,
     "band":null,
-    "description":"\u201cSaddleback\u201d refers to its white-bordered black spot. This fish inhabits coral reefs, rocky shores, and lagoons."
+    "description":"\u201CSaddleback\u201D refers to its white-bordered black spot. This fish inhabits coral reefs, rocky shores, and lagoons.",
+    "translatedName":{}
   },
   {
     "id":135,
@@ -3372,6 +3741,7 @@
     "Predator":null,
     "Venomous":null,
     "band":"blue",
-    "description":"Its body is divided into roughly geometric areas, each with a different design and color pattern."
+    "description":"Its body is divided into roughly geometric areas, each with a different design and color pattern.",
+    "translatedName":{}
   }
 ]

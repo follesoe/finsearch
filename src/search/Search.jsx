@@ -26,19 +26,33 @@ import Camouflage from "../assets/icons/Camouflage.svg";
 import Electric from "../assets/icons/Electric.svg";
 import Predator from "../assets/icons/Predator.svg";
 import Venomous from "../assets/icons/Venomous.svg";
+import NorwegianFlag from "../assets/icons/nn.svg";
 
 const cardIndex = FlexSearch.Document({
   tokenize: "full",
   document: {
     id: "id",
-    index: ["name", "latin", "ability"],
+    index: ["name", "latin", "ability", "translatedNames"],
   },
 });
 
 import("../assets/cards.json").then((cards) => {
   cards.default
     .sort((a, b) => a.id - b.id)
-    .forEach((card) => cardIndex.add(card));
+    .forEach((card) => {
+      // Extract all translated names into a searchable field
+      const translatedNames = card.translatedName 
+        ? Object.values(card.translatedName)
+            .map(translation => translation?.name || "")
+            .filter(name => name)
+            .join(" ")
+        : "";
+      
+      cardIndex.add({
+        ...card,
+        translatedNames: translatedNames
+      });
+    });
 });
 
 const fields = [
@@ -70,6 +84,15 @@ const filterTags = (query, card) => {
   )
 }
 
+const filterLanguages = (query, card) => {
+  return Object.keys(query).reduce((acc, key) => {
+    if (!query[key]) return acc; // If filter is disabled, don't filter
+    // Check if card has translation for this language
+    const hasTranslation = card.translatedName && card.translatedName[key] && card.translatedName[key].name;
+    return acc && hasTranslation;
+  }, true);
+}
+
 export function handleSearch(state, query) {
   const searchedIds = query.text
     ? [
@@ -82,7 +105,7 @@ export function handleSearch(state, query) {
     : Object.values(state.allCards).map((card) => card.id);
   const filteredIds = searchedIds.filter((id) => {
     const card = state.allCards[id];
-    return query.group[card.group] && filterLength(query.length, card.length) && filterZones(query.zones, card) && filterTags(query.tags, card);
+    return query.group[card.group] && filterLength(query.length, card.length) && filterZones(query.zones, card) && filterTags(query.tags, card) && filterLanguages(query.languages, card);
   });
 
   return { ...state, filteredCardIds: filteredIds.sort((a, b) => a - b) };
@@ -111,6 +134,9 @@ function Search({ cardState, triggerSearch }) {
       Electric: false,
       Predator: false,
       Venomous: false
+    },
+    languages: {
+      nb: false
     }
   };
   const [query, setQuery] = useState(defaultQuery);
@@ -372,6 +398,28 @@ function Search({ cardState, triggerSearch }) {
                       })
                     }
                   />
+                </div>
+              </Tooltip>
+            </div>
+            <div className="language-filter-section">
+              Filter by language
+              <Tooltip title="Filter cards by available translations">
+                <div className="row languages-row">
+                <img
+                  src={NorwegianFlag}
+                  alt="Norwegian"
+                  className={`language ${query.languages.nb ? "" : "disabled"
+                    }`}
+                  onClick={(e) =>
+                    setQuery({
+                      ...query,
+                      languages: {
+                        ...query.languages,
+                        nb: !query.languages.nb,
+                      },
+                    })
+                  }
+                />
                 </div>
               </Tooltip>
             </div>

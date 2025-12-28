@@ -1,6 +1,8 @@
 import React, { useRef, useEffect, useState } from "react";
 import "./Card.scss";
 import WaveIcon from "../assets/icons/Wave.svg";
+import ArtsdatabankenIcon from "../assets/icons/ArtsdatabankenSymbol.svg";
+import NorwegianFlagIcon from "../assets/icons/nn.svg";
 
 const getNameIcons = (data) => {
   const iconFields = ["Predator", "Bioluminescent", "Camouflage", "Electric", "Venomous"];
@@ -202,6 +204,19 @@ const Card = ({ data }) => {
             {getNameIcons(data)}
           </div>
         </div>
+        {data.translatedName?.nb?.name && (
+          <div className="norwegian">
+            <a 
+              href={data.translatedName.nb.link} 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="norwegian-link"
+            >
+              <img src={NorwegianFlagIcon} alt="Norwegian flag" className="norwegian-flag" />
+              {data.translatedName.nb.name}
+            </a>
+          </div>
+        )}
         <div className="latin">{data.latin}</div>
       </div>
       <div className="cost">{getCostIcons(data)}</div>
@@ -221,6 +236,16 @@ const Card = ({ data }) => {
         {data.description}
       </div>
       {addGroupMarker(data)}
+      {data.translatedName?.nb?.link && (
+        <a 
+          href={data.translatedName.nb.link} 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="artsdatabanken-link"
+        >
+          <img src={ArtsdatabankenIcon} alt="Artsdatabanken" />
+        </a>
+      )}
     </div>
   );
 };
