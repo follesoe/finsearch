@@ -2206,16 +2206,7 @@
     "Venomous":null,
     "band":"purple",
     "description":"Though normally a peaceful species, males aggressively guard the eggs while they develop.",
-    "translatedName":{
-      "nb":{
-        "name":"Det Gule Riket",
-        "link":"https://artsdatabanken.no/arter/takson/819"
-      },
-      "nn":{
-        "name":"Det Gule Riket",
-        "link":"https://artsdatabanken.no/arter/takson/819"
-      }
-    }
+    "translatedName":{}
   },
   {
     "id":79,
