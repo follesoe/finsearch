@@ -66,6 +66,13 @@
             gap: 0.5cqw;
             text-decoration: none;
             color: inherit;
+            cursor: pointer;
+            transition: text-decoration 0.2s ease;
+
+            &:hover {
+                text-decoration: underline;
+                opacity: 0.8;
+            }
         }
 
         .norwegian-flag {
